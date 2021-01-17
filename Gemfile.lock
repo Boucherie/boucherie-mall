@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/ayufan/spring
+  revision: 7ad2c111d54916bb52b37e1fa910195a7579172f
+  specs:
+    spring (1.7.1)
+
+GIT
   remote: https://github.com/influitive/apartment.git
   revision: f266f73e58835f94e4ec7c16f28443fe5eada1ac
   branch: development
@@ -226,7 +232,6 @@ GEM
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
-    spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
@@ -288,7 +293,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver
   sidekiq
-  spring
+  spring!
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
   tzinfo-data
